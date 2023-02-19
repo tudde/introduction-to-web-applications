@@ -1,0 +1,26 @@
+.form-container{
+    width: 500px;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: white;
+
+    input{
+        width: 90%;
+    }
+    label{
+        width: 90%;
+        margin-top: 10px;
+    }
+
+    button{
+        margin: 20px 0;
+        width: 50%;
+        height: 30px;
+        
+    }
+
+}

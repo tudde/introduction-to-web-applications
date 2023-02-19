@@ -1,0 +1,26 @@
+<div class="form-container">
+<form [formGroup]="tripForm" >
+    
+    <div class="form-group">
+        <h2>Add trip</h2>
+        <label for="name">Trip Title: </label>
+        <input id="name" type="text" formControlName="name"  >
+        <label for="country">Trip Country: </label>
+        <input id="country" type="text" formControlName="country" >
+        <label for="country">Description: </label>
+        <input id="description" type="text" formControlName="description" >
+        
+        <label for="startDate">Start date: </label>
+        <input id="startDate" type="date" formControlName="startDate" >
+        <label for="endDate">End date: </label>
+        <input id="endDate" type="date" formControlName="endDate" >
+        <label for="price">Price: </label>
+        <input id="price" type="number" formControlName="price" >
+        <label for="maxPlaces">Places: </label>
+        <input id="maxPlaces" type="number" formControlName="maxPlaces" >
+        <label for="picture">Picture URL: </label>
+        <input id="picture" type="text" formControlName="picture" >
+        <button [disabled]="!tripForm.valid" (click)=submitTrip() >Submit</button>
+    </div>
+</form>
+</div>

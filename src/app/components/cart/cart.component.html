@@ -1,0 +1,26 @@
+
+<div class="cart-div">
+    <h2>Cart</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Tickets</th>
+            <th></th>
+        </tr>
+        <tr *ngFor="let entry of getReservedTrips">
+            <td> {{entry[0].name}}</td>
+            <td> {{entry[0].price | currency }}</td>
+            <td>{{entry[1]}}</td>
+            <td><button class="buyButton" (click)='buyTrip(entry[0], entry[1])'>Buy this trip</button></td>
+        </tr>
+        <tr class="summary">
+            <td> Total</td>
+            <td> {{totalPrice | currency}}</td>
+            <td>{{totalReserved}}</td>
+            <td></td>
+        </tr>
+    </table>
+   
+
+</div>

@@ -1,0 +1,63 @@
+
+<div class="form-container">
+<form [formGroup]="opinionForm">
+<div class="form-group">
+    <h2>Rate this trip</h2>
+    <label for="username">Nick: </label>
+    <input id="username" type="text" formControlName="username"  >
+    
+    <div *ngIf="opinionForm.controls['username'].invalid && (opinionForm.controls['username'].dirty || opinionForm.controls['username'].touched)" class="alert">
+        <div *ngIf="opinionForm.controls['username'].errors['required']">
+        Please enter nickname
+      </div>
+    </div>
+
+    <label for="trip">Trip: </label>
+    <input id="trip" type="text" formControlName="trip" >
+
+    <div *ngIf="opinionForm.controls['trip'].invalid && (opinionForm.controls['trip'].dirty || opinionForm.controls['trip'].touched)" class="alert">
+        <div *ngIf="opinionForm.controls['trip'].errors['required']">
+        Please enter trip name
+      </div>
+    </div>
+
+    <label for="comment">Comment: </label>
+    <textarea id="comment" name="comment" rows="4" cols="50" formControlName="comment"></textarea>
+
+    <div *ngIf="opinionForm.controls['comment'].invalid && (opinionForm.controls['comment'].dirty || opinionForm.controls['comment'].touched)" class="alert">
+        <div *ngIf="opinionForm.controls['comment'].errors['required']">
+        Please enter your comment
+      </div>
+    </div>
+
+    <div *ngIf="opinionForm.controls['comment'].invalid && (opinionForm.controls['comment'].dirty || opinionForm.controls['comment'].touched)" class="alert">
+        <div *ngIf="opinionForm.controls['comment'].errors['maxlength']">
+            Comment should be 500 character at maximum
+      </div>
+    </div>
+
+    <div *ngIf="opinionForm.controls['comment'].invalid && (opinionForm.controls['comment'].dirty || opinionForm.controls['comment'].touched)" class="alert">
+        <div *ngIf="opinionForm.controls['comment'].errors['minlength']">
+        Comment should be 50 character at minimum
+      </div>
+    </div>
+
+    
+
+    <label for="date">Trip date: </label>
+    <input id="date" type="date" formControlName="date" >
+    <button [disabled]="!opinionForm.valid" (click)=submitOpinion() >
+    Submit</button>
+</div>
+</form>
+</div>
+    
+    
+<div *ngFor="let o of opinions" class="opinion" >
+    
+    <h4>{{o.username}}</h4>
+    <h2>{{o.trip}}</h2>
+    <p>{{o.date}}</p>
+    <p>{{o.comment}}</p>
+    
+</div>

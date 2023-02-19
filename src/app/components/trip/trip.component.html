@@ -1,0 +1,24 @@
+<div 
+class="trip-div"
+[ngStyle]="{'border-color': borderColor}"
+>
+    <button (click)=deleteTrip()>X</button>
+    <img routerLink="/trips/{{trip.id}}" src="{{trip.pictures[0]}}" alt="trip photo">
+    <h2>{{trip.name | uppercase}}</h2>
+    <h3>{{trip.country | uppercase}}</h3>
+    <p>{{trip.startDate | date}} - {{trip.endDate | date}}</p>
+    <!-- <p>{{trip.description }}</p>
+    <div class="rate-div">
+        <p>Rate this trip: </p>
+        <button *ngFor="let i of [1,2,3,4,5]" (click)=addToRating(i) [ngStyle]="{'color': localRating>=i ? 'black' :'lightgrey' }">★</button>
+          
+    </div>
+    <p>Current rating: {{tripRating }}</p> -->
+    <h3>{{trip.price | currency}}</h3>
+    <div class="trip-buttons-div">
+        <button *ngIf="reserved>0" class="sbtn"  (click)=subtractReservation()>-</button>
+        <p class="p1">{{reserved}}</p>
+        <p class="p2" [ngClass]="{'trip-low': trip.maxPlaces-reserved<=3 }">{{leftMsg}}</p>
+        <button *ngIf="reserved<trip.maxPlaces" class="abtn" (click)=addReservation()>+</button>
+    </div>
+</div>

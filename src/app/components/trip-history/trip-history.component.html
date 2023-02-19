@@ -1,0 +1,43 @@
+<div class="history-div">
+
+
+    <h1>Trip history</h1>
+
+    <div class="filters">
+        <label for="act">show active trips:</label>
+        <input type="checkbox" id="act"(change)="changeActive()" checked>
+        <label for="wait">show waiting trips:</label>
+        <input type="checkbox" id="wait"(change)="changeWaiting()"checked>
+        <label for="arch">show archival trips:</label>
+        <input type="checkbox" id="arch" (change)="changeArchival()" checked>
+    </div>
+    
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Begins on</th>
+            <th>Ends on</th>
+            <th>Bought on</th>
+            <th>Tickets</th>
+            <th>Status</th>
+    
+    
+        </tr>
+    
+        <tr *ngFor="let t of filteredHistory">
+            <td>{{t.name}}</td>
+            <td>{{t.startDate}}</td>
+            <td>{{t.endDate}}</td>
+            <td>{{t.buyDate}}</td>
+            <td>{{t.tickets}}</td>
+            <td>{{t.status}}</td>
+            
+        </tr>
+    
+    </table>
+    
+    
+
+</div>
+
+

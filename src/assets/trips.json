@@ -1,0 +1,126 @@
+{
+    "trips":[
+        {
+            "id": 0,
+            "name": "Rio de Janeiro",
+            "country": "Brasil",
+            "startDate": "2022-12-28",
+            "endDate": "2022-12-30",
+            "price": 2107,
+            "maxPlaces": 5,
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, minima modi quod mollitia ducimus hic praesentium dicta aliquam corrupti deserunt maiores similique illum exercitationem placeat aperiam tempora ipsam suscipit dolor cupiditate fuga reiciendis nostrum a! Pariatur, totam. Molestiae voluptas consequuntur saepe rem iste ducimus eaque!",
+            "pictures": ["../../assets/a.jpg","https://cdn.britannica.com/03/94403-050-03683FB0/Rio-de-Janeiro-Braz.jpg","https://api.time.com/wp-content/uploads/2016/02/rio-carnival.jpg"],
+            "ratings": [3,4,2]
+        },
+        {
+            "id": 1,
+            "name": "Las Vegas",
+            "country": "USA",
+            "startDate": "2022-12-06",
+            "endDate": "2022-12-31",
+            "price": 5201,
+            "maxPlaces": 11,
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, minima modi quod mollitia ducimus hic praesentium dicta aliquam corrupti deserunt maiores similique illum exercitationem placeat aperiam tempora ipsam suscipit dolor cupiditate fuga reiciendis nostrum a! Pariatur, totam. Molestiae voluptas consequuntur saepe rem iste ducimus eaque!",
+            "pictures":  ["../../assets/b.jpg","https://media.timeout.com/images/105483066/750/422/image.jpg"],
+            "ratings": [1,5,4]
+        },
+        {
+            "id": 2,
+            "name": "Tokyo",
+            "country": "Japan",
+            "startDate": "2023-02-23",
+            "endDate": "2023-03-01",
+            "price": 4223,
+            "maxPlaces": 3,
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, minima modi quod mollitia ducimus hic praesentium dicta aliquam corrupti deserunt maiores similique illum exercitationem placeat aperiam tempora ipsam suscipit dolor cupiditate fuga reiciendis nostrum a! Pariatur, totam. Molestiae voluptas consequuntur saepe rem iste ducimus eaque!",
+            "pictures": ["../../assets/c.jpg","https://content.r9cdn.net/rimg/dimg/ca/7e/9ae1c4b2-city-21033-16c1b1c620d.jpg?crop=true&width=1020&height=498"],
+            "ratings": [1,4,2]
+        },
+        {
+            "id": 3,
+            "name": "Delhi",
+            "country": "India",
+            "startDate": "2023-05-25",
+            "endDate": "2023-06-12",
+            "price": 8231,
+            "maxPlaces": 7,
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, minima modi quod mollitia ducimus hic praesentium dicta aliquam corrupti deserunt maiores similique illum exercitationem placeat aperiam tempora ipsam suscipit dolor cupiditate fuga reiciendis nostrum a! Pariatur, totam. Molestiae voluptas consequuntur saepe rem iste ducimus eaque!",
+            "pictures": ["../../assets/d.jpg"],
+            "ratings": [4,5,1]
+        },
+        {
+            "id": 4,
+            "name": "Nicosia",
+            "country": "Cyprus",
+            "startDate": "2023-09-22",
+            "endDate": "2023-09-30",
+            "price":2310,
+            "maxPlaces": 4,
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, minima modi quod mollitia ducimus hic praesentium dicta aliquam corrupti deserunt maiores similique illum exercitationem placeat aperiam tempora ipsam suscipit dolor cupiditate fuga reiciendis nostrum a! Pariatur, totam. Molestiae voluptas consequuntur saepe rem iste ducimus eaque!",
+            "pictures": ["../../assets/e.jpg"],
+            "ratings": []
+        },
+        {
+            "id": 5,
+            "name": "Cairo",
+            "country": "Egypt",
+            "startDate": "2023-03-21",
+            "endDate": "2023-03-28",
+            "price": 5322,
+            "maxPlaces": 2,
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, minima modi quod mollitia ducimus hic praesentium dicta aliquam corrupti deserunt maiores similique illum exercitationem placeat aperiam tempora ipsam suscipit dolor cupiditate fuga reiciendis nostrum a! Pariatur, totam. Molestiae voluptas consequuntur saepe rem iste ducimus eaque!",
+            "pictures": ["../../assets/f.jpg"],
+            "ratings": []
+        },
+        {
+            "id": 6,
+            "name": "Sydney",
+            "country": "Australia",
+            "startDate": "2024-04-21",
+            "endDate": "2024-05-02",
+            "price": 2711,
+            "maxPlaces": 3,
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, minima modi quod mollitia ducimus hic praesentium dicta aliquam corrupti deserunt maiores similique illum exercitationem placeat aperiam tempora ipsam suscipit dolor cupiditate fuga reiciendis nostrum a! Pariatur, totam. Molestiae voluptas consequuntur saepe rem iste ducimus eaque!",
+            "pictures": ["../../assets/g.jpg"],
+            "ratings": []
+        },
+        {
+            "id": 7,
+            "name": "Moscow",
+            "country": "Russia",
+            "startDate": "2023-02-07",
+            "endDate": "2023-02-16",
+            "price": 1232,
+            "maxPlaces": 6,
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, minima modi quod mollitia ducimus hic praesentium dicta aliquam corrupti deserunt maiores similique illum exercitationem placeat aperiam tempora ipsam suscipit dolor cupiditate fuga reiciendis nostrum a! Pariatur, totam. Molestiae voluptas consequuntur saepe rem iste ducimus eaque!",
+            "pictures": ["../../assets/h.jpg"],
+            "ratings": []
+        },
+        {
+            "id": 8,
+            "name": "Bydgoszcz",
+            "country": "Poland",
+            "startDate": "2022-02-02",
+            "endDate": "2022-02-04",
+            "price": 12,
+            "maxPlaces": 3,
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, minima modi quod mollitia ducimus hic praesentium dicta aliquam corrupti deserunt maiores similique illum exercitationem placeat aperiam tempora ipsam suscipit dolor cupiditate fuga reiciendis nostrum a! Pariatur, totam. Molestiae voluptas consequuntur saepe rem iste ducimus eaque!",
+            "pictures": ["../../assets/i.jpg"],
+            "ratings": []
+        },
+        {
+            "id": 9,
+            "name": "Oslo",
+            "country": "Norway",
+            "startDate": "2022-08-27",
+            "endDate": "2022-09-12",
+            "price": 1222,
+            "maxPlaces": 5,
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, minima modi quod mollitia ducimus hic praesentium dicta aliquam corrupti deserunt maiores similique illum exercitationem placeat aperiam tempora ipsam suscipit dolor cupiditate fuga reiciendis nostrum a! Pariatur, totam. Molestiae voluptas consequuntur saepe rem iste ducimus eaque!",
+            "pictures": ["../../assets/j.jpg"],
+            "ratings": []
+        }
+
+
+    ]
+}

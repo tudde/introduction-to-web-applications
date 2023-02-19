@@ -1,0 +1,35 @@
+h1{
+    width: 100%;
+    text-align: center;
+}
+
+table, td {
+    
+    border-collapse: collapse;
+    
+    }
+table{
+    width: 50%;
+    min-width: 500px;
+}
+td{
+    border: 1px solid black;
+    text-align: center;
+    height: 50px;
+}
+th{
+    border: 1px solid #4d7c8a;
+    background-color: #4d7c8a;
+    color: white;
+    height: 50px;
+
+}
+
+.summary{
+    border-top:solid  #4d7c8a 3px;
+    font-weight: bold;
+    font-size: 20px;
+}
+input{
+    margin: 10px;
+}

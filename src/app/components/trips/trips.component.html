@@ -1,0 +1,7 @@
+<div class="trips-div">
+<app-trip *ngFor="let t of tripss" [trip] = "t" 
+[isHighest]="highestPrice == t.price"
+[isLowest]="lowestPrice == t.price"
+></app-trip>
+</div>
+
